@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events type (TII)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-title">
+            <h1>Events type</h1>
+        </div>
+        <div class="header-text">
+            <p>Некоторые функции уже работают <br> Ctrl+Shift+I ;)</p>
+        </div>
+    </header>
+
+    <!-- Объект события -->
+
+    <section class="objects">
+        <h2>Объекты события</h2>
+        <button class="objects-type">Нажми на меня и увидишь мой тип</button>
+        <button class="objects-target"><span>Нажми на меня и можешь увидеть span</span></button>
+        <button class="objects-currentTarget"><span>А у меня отображается только кнопка</span></button>
+    </section>
+
+
+    <!-- всплытие -->
+
+    <h2>Всплытие</h2>
+    <section class="surface">
+        <div class="surface-block1">
+            <p>1 блок</p>
+            <div class="surface-block2">
+                <p>2 блок</p>
+                <div class="surface-block3">
+                    <p>3 блок</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- делегирование событий -->
+     <section class="delegation">
+        <h2>Делегирование событий</h2>
+        <button class="delegation-btn">Нажми на меня</button>
+        <button class="delegation-btn">И на меня</button>
+        <button class="delegation-btn">И на меня</button>
+        <button class="delegation-btn">И на меня</button>
+        <button class="delegation-btn">И на меня</button>
+     </section>
+
+
+     <!-- отмена действий браузера -->
+      <section class="browser">
+        <a href="https://www.youtube.com/watch?v=bWCzbR5DvCo&t=1076s" class="link">здесь надо было бы перейти по ссылке<br>(отмена действий браузера)</a>
+      </section>
+
+
+      <!-- основы событий мыши -->
+       <section class="mouse">
+            <h2>Основы событий мыши</h2>
+            <button class="mouse-DownUp mouse-btn">Down-Up</button>
+            <button class="mouse-OverOut mouse-block"><span>Over-Out (показывают внутренние обьекты)</span></button>
+            <button class="mouse-EnterLeave mouse-block"><span>Enter-leave (не показывает внутренние обьекты)</span></button>
+            <button class="mouse-move mouse-block"></button>
+       </section>
+
+
+       <!-- основы событий клавиатуры -->
+        <section class="keyboard">
+            <h2>Основы событий клавиатур</h2>
+            <p>Зажми клавишу R</p>
+            <p>Отожми клавишу R</p>
+            <p>Нажми KeyC</p>
+        </section>
+
+
+        <!-- событие скролла -->
+        <section class="scroll">
+            <h2>Событие скролл для примера :)</h2>
+        </section>
+
+
+        <!-- событие прогрузки странцицы -->
+         <section class="page">
+            <h2>Событие прогрузки страницы</h2>
+             <img class="image" src="img/img.jpg" alt="img">
+         </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
